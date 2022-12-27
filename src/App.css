@@ -1,38 +1,91 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+.card {
+  width: 18rem;
+  margin: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
 .App {
-  text-align: center;
+	margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news-block-header {
+	display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation-list {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.navigation-list-elem:not(:last-child) {
+	margin-right: 5px;
+}
+
+.news-list {
+	margin-bottom: 15px;
+}
+
+.news-list-elem {
+	display: flex;
+}
+
+.currencies-list {
+	display: flex;
+}
+
+.currencies-list-elem {
+	display: flex;
+}
+
+.currencies-list-elem:not(:last-child) {
+	margin-right: 5px;
+}
+
+.search-block {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.main-logo {
+	margin-right: 10px;
+}
+
+.widgets-block {
+	margin-top: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.widget {
+	margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.widget:nth-child(2n) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.program-list-elem {
+	display: flex;
+}
+
+.broadcast-list-elem {
+	display: flex;
 }
